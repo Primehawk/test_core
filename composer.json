@@ -1,9 +1,9 @@
 {
   "name": "primehawk/module-core",
-  "description": "Core module A for Magento 2",
+  "description": "Core module for Magento 2 by Primehawk",
   "require": {
     "php": ">=7.4",
-    "magento/framework": ">103.0"
+    "magento/framework": "^103.0"
   },
   "license": [
     "GPL-3.0-or-later"
@@ -13,18 +13,18 @@
       "name": "Primehawk",
       "email": "example@example.com",
       "homepage": "https://example.com",
-      "role": "Example Role"
+      "role": "Developer"
     }
   ],
   "type": "magento2-module",
   "version": "1.0.0",
   "autoload": {
+    "psr-4": {
+      "Primehawk\\Core\\": ""
+    },
     "files": [
       "registration.php"
     ]
-  },
-  "psr-4": {
-    "Primehawk\\Core\\": ""
   },
   "minimum-stability": "stable",
   "prefer-stable": true
