@@ -1,0 +1,14 @@
+{
+    "name": "primehawk/module-a",
+    "description": "Core module A for Magento 2",
+    "require": {
+        "php": ">=7.4"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
