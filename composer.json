@@ -1,5 +1,5 @@
 {
-    "name": "primehawk/module-a",
+    "name": "primehawk/module-core",
     "description": "Core module A for Magento 2",
     "require": {
         "php": ">=7.4"
